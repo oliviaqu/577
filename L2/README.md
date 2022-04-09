@@ -9,3 +9,4 @@ The single neuron model together with the gradient descent algorithm to get the 
  In a general manor, gradient descent can now be defined in a meaningful sense:
 
 w \leftarrow w - \alpha \nabla f(w) \:\:\:\:\:\:\:\:\:\: (\text{True Gradient Descent})
+$w \leftarrow w - \alpha \nabla f(w) \:\:\:\:\:\:\:\:\:\: (\text{True Gradient Descent})$
