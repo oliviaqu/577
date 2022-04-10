@@ -25,3 +25,5 @@ In this notebook we will focus on linear regression. This specific case of regre
 ## DATASET 
 
 The dataset used is palmerpenguins which contains size measurements for three penguin species observed on three islands in the Palmer Archipelago, Antarctica.
+
+In this linear regression single neuro model, we focus on 'Adelie' penguin species. We use the bill_length as the predictor X and bill_depth as the predicted value y, tring to find whether or not there is linear relationship between bill_length and bill_depth.
