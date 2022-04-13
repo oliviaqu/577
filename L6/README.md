@@ -39,3 +39,13 @@ Need to be careful with parameter tuning
 Can create biased learned trees if some classes dominate.
 
 # DATASET
+
+### Classification
+
+The dataset used is palmerpenguins which contains size measurements for three penguin species observed on three islands in the Palmer Archipelago, Antarctica.
+
+In this Decision Tree alogrithm, we use 'bill length[mm]' and 'bill depth[mm]' as features to train the model and make the classification. Finally, using confusion matrix and classification report to evaluate the performance of model.
+
+### Regression
+
+The dataset used in regression tree is diabetes in sklearn.datasets. We set different max_depth values in the model and find the model with the minimum MSE.
