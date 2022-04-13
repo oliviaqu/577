@@ -66,3 +66,8 @@ Prediction time is important as the model needs time to aggregate the result fro
 
 # DATASET
 
+The dataset used is palmerpenguins which contains size measurements for three penguin species observed on three islands in the Palmer Archipelago, Antarctica.
+
+In this Ensembel method, we first use 'bill length[mm]' and 'bill depth[mm]' as features to train the bagging and random forest model and make the comparision through classification report.
+
+Then, we consider all features in penguin dataset and compare decision tree model, bagging model and random forest model through classification report and decision boundary plots.
