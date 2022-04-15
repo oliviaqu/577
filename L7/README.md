@@ -15,9 +15,10 @@ There are 3 main types of ensemble methods:
 
 #### - Stacking
 
-In this folder, we only focus on bagging. We examine machine learning model: **Random Forest** which utilises the technique of bagging.
+In this folder, we only focus on bagging and boosting. We examine machine learning model: **Random Forest** which utilises the technique of bagging; 
+boosting methods which are **AdaBoost** and **gradient boosting**
 
-## Random forest (bagging)
+## 1. Random forest (bagging)
 
 ### Introduction
 
@@ -63,11 +64,39 @@ Transparency is important
 
 Prediction time is important as the model needs time to aggregate the result from multiple decision trees before arriving at the final prediction
 
+## 2. Boosting
+
+**Boosting** is an ensemble method that trains predictors **sequentially**, each trying to correct the errors made by the previous predictor. In this lecture we consider two well known boosting methods, namely **AdaBoost** and **gradient boosting**.
+
+A crucial distinction that makes boosting different from bagging is that decision trees under boosting are not built independently but instead, they are built in a sequential manner where each tree effectively learns the mistake from the ones that come before it.
+
+## AdaBoost
+
+With AdaBoost, the training algorithm first trains a base classifier and uses it to make predictions on the training set. Then, each of the missclassified training instances is then given a relative weight. The next classifier is then trained on the dataset using these relative weights, and so on.
+
+The idea is that whenever a classifier missclassifies a data point,this data point is then boosted to signal difficulty in classification.
+
+## Gradient Boosting
+
+Another popular boosting method is gradient boosting. This method works by sequentially adding predictors to an ensemble, each correcting is predecessor. The difference between this method and AdaBoost is that gradient boosting tries to fit the new predictor to the residual errors made by the previous predictor. 
+
+### Disadvantages
+
+Your data is really noisy as gradient boosting tends to emphasise even the smallest error and as a result, it can overfit to noise in the data
+
 
 # DATASET
+
+## Bagging
 
 The dataset used is palmerpenguins which contains size measurements for three penguin species observed on three islands in the Palmer Archipelago, Antarctica.
 
 In this Ensembel method, we first use 'bill length[mm]' and 'bill depth[mm]' as features to train the bagging and random forest model and make the comparision through classification report.
 
 Then, we consider all features in penguin dataset and compare decision tree model, bagging model and random forest model through classification report and decision boundary plots.
+
+## Boosting
+
+In the AdaBoost and GradientBoost models, we still use the penguin datasets, and 'bill length[mm]' and 'bill depth[mm]' as features.
+
+We compare their performance with that of random forest through decision boundary plots and classification report.
