@@ -1,4 +1,6 @@
 # INDE 577 — Data Science and Machine Learning 
+![ml](https://user-images.githubusercontent.com/98184249/163836559-7e12cea4-c1c6-458a-9da1-1a1d763fc0a2.jpeg)
+
 
 ## Project Description
 
