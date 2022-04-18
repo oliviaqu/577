@@ -13,7 +13,7 @@ It infers a function from labeled training data consisting of a set of training 
 - Linear Regression
 - Logistic Regression
 - Multilayer Neural networks
-- K-Nearest Neighour
+- K-Nearest Neighbor
 - Decision Tree
 - Ensemble Method: Random Forest(Bagging),Boosting
 
