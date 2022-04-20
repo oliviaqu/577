@@ -34,6 +34,6 @@ As the number of dimensions increases, a distance-based similarity measure conve
 # DATASET
 The dataset used is palmerpenguins which contains size measurements for three penguin species observed on three islands in the Palmer Archipelago, Antarctica.
 
-In this KNN alogrithm, we use 'bill length[mm]' and 'bill depth[mm]' as features to train the model and make the classification.
+In this K-Means Clustering alogrithm, we use 'bill length[mm]' and 'bill depth[mm]' as features to train the model and make the classification.
 
 We first build the class about k-means clustering from the scratch, then perform the algorithm again using scikit-learn package.
